@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: bisque;
+    
+}
+
+header {
+    height: 20%;
+    width: 100%;
+    font-size: 110px;
+    background: linear-gradient(45deg, #8e0e89 33%, #06396f 66%, #334e75);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.country {
+    height: 80%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 40px;
+    font-size: 60px;
+    background: linear-gradient(45deg, #50074d 33%, #06396f 66%, #334e75);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+}
+
+.information {
+    height: 80%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+p {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    cursor: pointer;
+}
+
+.title {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(45deg, #490546 33%, #125cac 66%, #334e75);
+    color: bisque;
+    font-size: 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.universities {
+    height: auto;
+    width: 100%;
+    background-color: rgb(222, 190, 243);
+}
